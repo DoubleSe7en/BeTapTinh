@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>BTCN03</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/javascripts/default.js"></script>
+
+</head>
+  <body>
+      <div class="container">
+          <div id="div-jumbotron" class="jumbotron">
+              <h1 id="text-header">Bé tập tính</h1>
+          </div>
+          <div class="vertical-center-row">
+              <div class="row">
+                  <div id="box-div" class="col-sm-8 col-sm-offset-2">
+                      <div class="row">
+                          <div id="margin-top" class="col-sm-3">
+                              <h4>Số thứ nhất</h4>
+                          </div>
+                          <div id="margin-top" class="col-sm-5">
+                              <input id="number1" type="text" class="form-control" name="number1">
+                          </div>
+                          <div id="margin-top" class="col-sm-2">
+                              <div class="form-check">
+                                  <label class="form-check-input" style="font-size: 20px;"><input type="radio" name="calculation" value="sum">Cộng</label>
+                              </div>
+                          </div>
+                          <div id="margin-top" class="col-sm-2">
+                              <div class="form-check">
+                                  <label class="form-check-input" style="font-size: 20px;"><input type="radio" name="calculation" value="mul">Nhân</label>
+                              </div>
+                          </div>
+
+                      </div>
+                      <div class="row">
+                          <div id="margin-top" class="col-sm-3">
+                              <h4>Số thứ hai</h4>
+
+                          </div>
+                          <div id="margin-top" class="col-sm-5">
+                              <input id="number2" type="text" class="form-control" name="number2">
+                          </div>
+
+                          <div id="margin-top" class="col-sm-2">
+                              <div class="form-check">
+                                  <label class="form-check-input" style="font-size: 20px;"><input type="radio" name="calculation" value="sub">Trừ</label>
+                              </div>
+                          </div>
+                          <div id="margin-top" class="col-sm-2">
+                              <div class="form-check">
+                                  <label class="form-check-input" style="font-size: 20px;"><input type="radio" name="calculation" value="div">Chia</label>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div id="margin-top" class="col-sm-3">
+                              <h4>Kết quả</h4>
+                          </div>
+                          <div id="margin-top" class="col-sm-5">
+                              <input id="result" type="text" class="form-control" disabled>
+                          </div>
+                          <div id="margin-top" class="col-sm-4">
+                              <button id="Cal" onclick="myCalculation()">Tính</button>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div id="margin-top" class="col-sm-3">
+
+                              <h4 id="margin-top">Thông báo</h4>
+                          </div>
+                          <div id="margin-top" class="col-sm-9">
+
+                              <h4 id="notify" style="color: red;"></h4>
+
+                          </div>
+                      </div>
+                  </div>
+</body>
+</html>

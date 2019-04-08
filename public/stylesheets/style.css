@@ -1,0 +1,31 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/background.jpg");
+}
+
+div.jumbotron {
+    background-image: url(../images/background2.jpg);
+    background-size: 50% 100%;
+}
+
+#text-header {
+    text-align: center;
+    font-family: Ravie;
+    color: lightsalmon;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#box-div {
+    height: auto;
+    border: 2px solid gray;
+}
+
+#margin-10px {
+    margin: 10px;
+}
+
+#margin-top {
+    margin-top: 15px;
+}
